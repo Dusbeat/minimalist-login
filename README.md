@@ -1,6 +1,6 @@
-# Exemplo de Página de Login
+# InstaClone
 
-Página de Login desenvolvida puramente com HTML5 e CSS3 por mim.
+Reprodução da Página do Login do Instagram (www.instagram.com)
 
 ## Linguagens Utilizadas no Projeto:
 
