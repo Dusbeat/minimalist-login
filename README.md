@@ -1,6 +1,6 @@
-# InstaClone
+# Exemplo de Página de Login
 
-Reprodução da Página do Login do Instagram (www.instagram.com)
+Exemplo de uma página de login desenvolvida por mim.
 
 ## Linguagens Utilizadas no Projeto:
 
