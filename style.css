@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Phudu:wght@900&family=Poppins:ital,wght@0,500;1,200;1,300;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-image: url("/Log\ in\ \(1\).png")
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    
+    
+}
+
+.box{
+    width: 540px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    border-radius: 10px;
+}
+.box h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.input-form{
+    padding: 15px;
+    margin: 0;
+    padding-left: 70px;
+    
+    display: flex;   
+    flex-direction: column;
+}
+
+.input-form p {
+    margin: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.input-form input{
+    width: 80%;
+    border: 2px solid rgb(136, 196, 245);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+
+.password-line{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 65px;
+    align-items: center;
+    
+    
+}
+
+.password-line a {
+    color: #007DFA;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 15px;
+    
+    
+}
+
+#btn-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+button {
+    padding: 15px 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: #007DFA;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    justify-items: center;
+}
+
+button:hover{
+    background-color: #022f5d;
+    padding: 16px 165px;
+
+}
+
+.no-account {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 125px;
+    padding-right: 145px;
+    font-size: 14px;
+    color: #BEBEBF;
+}
+
+.no-account a{
+    color: #007DFA;
+    text-decoration: none;
+}
+
+
+/* Responsive Mobile */
+
+@media(max-width: 768px) {
+    .container{
+        display: flex;
+        padding-top: 70%;
+        
+    }
+}
+
+@media(max-width:460px){
+    .container{
+        padding: 0;
+        padding-top: 15px;
+    }
+    .box h2{
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+
+    .input-form{
+        font-size: 15px;
+        padding-left: 45px;    
+    }
+
+    .no-account{
+        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        padding-top: 15px;
+    }
+
+    button{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
